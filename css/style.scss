@@ -1,12 +1,6 @@
 body {
   background-color: grey;
 }
-
-
-
-
-
-
 .menu {
   position: fixed;
   top: 0;
@@ -14,8 +8,12 @@ body {
   background: #fff;
   width: 240px;
   height: 100%;
-  transform: translate3d(-240px, 0, 0);
+  -webkit-transform: translate3d(-240px, 0, 0);
+          transform: translate3d(-240px, 0, 0);
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
 }
 .menu label.menu-toggle {
   position: absolute;
@@ -55,7 +53,8 @@ body {
 
 /* fade in checked menu */
 .menu-checkbox:checked + .menu {
-  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 
 ul {
