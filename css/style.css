@@ -2,6 +2,9 @@ html {
   background-image: url("img/background.png"); }
 
 /* The side navigation menu */
+.fa-bars {
+  padding: .2em; }
+
 .sidenav {
   height: 100%;
   /* 100% Full-height */
