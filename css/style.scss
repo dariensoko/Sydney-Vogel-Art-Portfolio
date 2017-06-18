@@ -1,22 +1,8 @@
-
-/* Header */
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
--webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
-/* The side navigation menu */
-.fa-bars {
-  padding: .2em;
-}
 
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -70,12 +56,42 @@
     .sidenav a {font-size: 18px;}
 }
 
-.hero-img img {
+.hero-img {
   height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-image: url(img/Bat-girl.png);
+}
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#hero {
+  height:100%;
+  width: 100%;
+}
+
+/* Header */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: grey;
+  height: 10vh;
+  position: fixed;
+  width: 100%
+}
+
+/* The side navigation menu */
+.fa-bars {
+
 }
 
 
