@@ -120,6 +120,5 @@ body {
 
 .information {
   padding: .3em;
-  background-color: #CDC7AC; }
-  .information h1 {
-    text-align: center; }
+  background-color: #CDC7AC;
+  text-align: center; }
