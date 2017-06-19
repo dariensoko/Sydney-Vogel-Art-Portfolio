@@ -16,7 +16,7 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background-color: #F9F5E7;
+  background-color: #B7C6FA;
   height: 4em;
   position: fixed;
   width: 100%; }
@@ -120,5 +120,5 @@ body {
 
 .information {
   padding: .3em;
-  background-color: #CDC7AC;
+  background-color: #474333;
   text-align: center; }
