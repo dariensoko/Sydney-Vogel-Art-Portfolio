@@ -16,11 +16,15 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
   background-color: $background;
 }
 
 #hero {
-  margin-top: 3em;
+  margin-top: 2em;
   max-height: 80vh;
   max-width: 80vh;
   width: 100%;
