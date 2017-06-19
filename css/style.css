@@ -119,6 +119,7 @@ body {
   width: 100%; }
 
 .information {
+  padding: .3em;
   background-color: #F9F5E7; }
   .information h1 {
     text-align: center; }
