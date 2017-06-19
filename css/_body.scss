@@ -34,4 +34,10 @@ body {
   width: 100%;
 }
 
-/* Header */
+.information {
+  background-color: $accent-3;
+  h1 {
+    text-align: center;
+  }
+
+}

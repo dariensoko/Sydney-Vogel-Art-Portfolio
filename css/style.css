@@ -16,7 +16,7 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background-color: #5C704C;
+  background-color: #F9F5E7;
   height: 4em;
   position: fixed;
   width: 100%; }
@@ -118,4 +118,7 @@ body {
   max-width: 80vh;
   width: 100%; }
 
-/* Header */
+.information {
+  background-color: #F9F5E7; }
+  .information h1 {
+    text-align: center; }
