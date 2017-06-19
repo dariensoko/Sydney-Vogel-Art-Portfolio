@@ -5,6 +5,10 @@ body, html {
   margin: 0;
 }
 
+body {
+  background-image: url("../img/starry.jpg");
+}
+
 .hero-img {
   height: 100vh;
   width: 100vw;
@@ -20,7 +24,7 @@ body, html {
       -ms-flex-align: center;
           align-items: center;
 
-  background-color: $background;
+
 }
 
 #hero {
