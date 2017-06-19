@@ -22,6 +22,12 @@
   width: 100%; }
 
 /* The side navigation menu */
+.fa-bars {
+  padding-right: .3em; }
+
+.name {
+  padding-left: .3em; }
+
 .sidenav {
   height: 100%;
   /* 100% Full-height */
