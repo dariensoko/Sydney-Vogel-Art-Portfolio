@@ -98,6 +98,9 @@ body, html {
 body {
   background-image: url("../img/sky.jpg"); }
 
+h1 {
+  font-family: 'Lobster', cursive; }
+
 .hero-img {
   height: 100vh;
   width: 100vw;
