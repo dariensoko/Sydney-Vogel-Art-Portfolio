@@ -26,8 +26,7 @@
   right: 5px;
   position: fixed;
   padding: 5px;
-  color: #CdC7AC;
-  background-color: #B7C6FA; }
+  color: #474333; }
 
 .name {
   padding-left: .3em; }
@@ -100,6 +99,9 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive; }
+
+h3, p {
+  font-family: 'Droid Serif', serif; }
 
 .hero-img {
   height: 100vh;
