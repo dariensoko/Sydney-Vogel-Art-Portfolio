@@ -60,8 +60,14 @@ h3, p, .button {
 }
 
 .selfie {
-  background-image: url("../img/selfie.jpg");
-  width: 100%;
+  display: block;
+    position: relative;
+    background-image: url('../img/selfie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+
 }
 
 .portfolio {

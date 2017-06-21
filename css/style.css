@@ -146,8 +146,13 @@ h3, p, .button {
   align-items: center; }
 
 .selfie {
+  display: block;
+  position: relative;
   background-image: url("../img/selfie.jpg");
-  width: 100%; }
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px; }
 
 .portfolio {
   color: #B7C6FA;
