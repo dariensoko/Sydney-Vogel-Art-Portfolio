@@ -145,6 +145,10 @@ h3, p, .button {
   -webkit-align-items: center;
   align-items: center; }
 
+.selfie {
+  background-image: url("../img/selfie.jpg");
+  width: 100%; }
+
 .portfolio {
   color: #B7C6FA;
   padding: .3em;

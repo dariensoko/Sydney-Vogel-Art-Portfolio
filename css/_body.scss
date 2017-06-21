@@ -59,6 +59,11 @@ h3, p, .button {
           align-items: center;
 }
 
+.selfie {
+  background-image: url("../img/selfie.jpg");
+  width: 100%;
+}
+
 .portfolio {
   color: $accent-5;
   padding: .3em;
