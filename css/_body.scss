@@ -13,7 +13,7 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 
-h3, p {
+h3, p, .button {
   font-family: 'Droid Serif', serif;
 }
 
@@ -43,6 +43,8 @@ h3, p {
 }
 
 .information, .contact {
+  max-width: 900px;
+  margin: auto;
   padding: .3em;
   background-color: $accent-5;
   display: -webkit-box;
