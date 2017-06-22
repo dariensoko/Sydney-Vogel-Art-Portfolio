@@ -128,6 +128,7 @@ h3, p, .button {
 
 .information, .contact {
   padding: .3em;
+  padding-bottom: 1.5em;
   background-color: #B7C6FA;
   display: -webkit-box;
   display: -ms-flexbox;
