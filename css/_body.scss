@@ -43,8 +43,6 @@ h3, p, .button {
 }
 
 .information, .contact {
-  max-width: 900px;
-  margin: auto;
   padding: .3em;
   background-color: $accent-5;
   display: -webkit-box;
@@ -70,7 +68,7 @@ h3, p, .button {
   border-style: solid;
   border-width: 5px;
   border-color: $accent-5;
-  bottom: 60px;
+  bottom: 100px;
   -webkit-box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
           box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
   margin:auto;
