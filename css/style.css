@@ -16,7 +16,7 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background-color: #B7C6FA;
+  background-color: #6C5F51;
   height: 4em;
   width: 100%; }
 
@@ -26,7 +26,8 @@
   right: 5px;
   position: fixed;
   padding: 5px;
-  color: #474333; }
+  color: #F6EEE4;
+  z-index: 4; }
 
 .name {
   padding-left: .3em; }
@@ -186,7 +187,7 @@ h3, p, .button {
       border-color: #B7C6FA; }
 
 .button {
-  background-color: #CdC7AC;
+  background-color: #F6EEE4;
   border: none;
   color: #1B1913;
   padding: 15px 32px;
