@@ -108,8 +108,8 @@ h3, p, .button {
 .hero-img {
   background-image: url(../img/new-img.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position: right;
+  background-size: cover;
   height: 100vw;
   width: 100vw;
   z-index: 2; }
