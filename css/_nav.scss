@@ -16,7 +16,7 @@
           align-items: center;
   background-color: $accent-1;
   height: 4em;
-
+  z-index: 3;
   width: 100%
 }
 
@@ -27,7 +27,7 @@
   position: fixed;
   padding: 5px;
   color: $accent-3;
-  z-index: 4;
+  z-index: 3;
 
 
 }
@@ -42,7 +42,7 @@
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 4; /* Stay on top */
     top: 0;
     right: 0;
     background-color: #111; /* Black*/
