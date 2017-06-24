@@ -117,7 +117,7 @@ h3, p, .button {
 
 .information, .contact {
   padding: 1.5em;
-  background-color: #B7C6FA;
+  background-color: #D8C9B6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -142,7 +142,7 @@ h3, p, .button {
   height: 250px;
   border-style: solid;
   border-width: 5px;
-  border-color: #B7C6FA;
+  border-color: #F6EEE4;
   -webkit-box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
   box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
   margin: auto; }
@@ -151,7 +151,6 @@ h3, p, .button {
   background-image: url("../img/selfie-reduced.jpg"); }
 
 .portfolio {
-  color: #B7C6FA;
   padding: .3em;
   text-align: center; }
 
@@ -182,12 +181,12 @@ h3, p, .button {
       width: 90%;
       border-style: solid;
       border-width: 5px;
-      border-color: #B7C6FA; }
+      border-color: #F6EEE4; }
 
 .button {
-  background-color: #F6EEE4;
+  background-color: #3F5510;
   border: none;
-  color: #1B1913;
+  color: #F6EEE4;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
