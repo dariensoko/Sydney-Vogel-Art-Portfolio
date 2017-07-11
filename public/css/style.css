@@ -178,7 +178,7 @@ h3, p, .button {
   .gallery .gallery-item {
     margin: 20px; }
     .gallery .gallery-item .thumbnail {
-      width: 90%;
+      width: 70%;
       border-style: solid;
       border-width: 5px;
       border-color: #F6EEE4; }
