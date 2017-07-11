@@ -104,8 +104,12 @@ h1 {
   h1 .h1-name {
     top: -40px; }
 
+h3 {
+  max-width: 80%; }
+
 h3, p, .button {
-  font-family: 'Droid Serif', serif; }
+  font-family: 'Droid Serif', serif;
+  text-align: center; }
 
 .hero-img {
   background-image: url(../img/new-img.jpg);
