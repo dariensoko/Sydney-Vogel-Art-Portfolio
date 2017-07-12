@@ -11,9 +11,6 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
-  .h1-name {
-    top: -40px;
-  }
 }
 h3{
   max-width: 80%;
@@ -21,6 +18,9 @@ h3{
 h3, p, .button {
   font-family: 'Droid Serif', serif;
   text-align: center;
+}
+.Subheading {
+  font-size: 3em;
 }
 
 .hero-img {
@@ -34,6 +34,24 @@ h3, p, .button {
 
 
 
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.icons {
+  margin-left: .2em;
+  margin-right: .2em;
+
+}
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 

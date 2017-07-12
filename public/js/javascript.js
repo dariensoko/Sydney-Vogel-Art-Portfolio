@@ -8,3 +8,13 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+$(document).ready(function(){
+  $('.gallery-hide').hide();
+  $('.Insta-link').hide();
+    $(".see-more").click(function(){
+        $('.gallery-hide').toggle();
+        $('.Insta-link').toggle();
+        $('.see-more').hide();
+    });
+});
