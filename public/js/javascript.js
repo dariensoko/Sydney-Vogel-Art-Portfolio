@@ -13,8 +13,8 @@ $(document).ready(function(){
   $('.gallery-hide').hide();
   $('.Insta-link').hide();
     $(".see-more").click(function(){
-        $(".Insta-link").fadeIn(3000);
-        $(".gallery-hide").fadeIn(3000);
-        $(".see-more").fadeOut(100);
+        $('.gallery-hide').toggle();
+        $('.Insta-link').toggle();
+        $('.see-more').hide();
     });
 });
